@@ -32,7 +32,6 @@
       font-size: 20px;
     }
 
-    /* Login styles */
     .login-container {
       position: absolute;
       top: 20px;
@@ -78,7 +77,6 @@
       display: block;
     }
 
-    /* Keep your existing styles unchanged below */
     .search-section {
       text-align: center;
       padding: 40px 20px;
@@ -222,6 +220,38 @@
       background-color: #1b5f75;
     }
 
+    .reviews-section {
+      padding: 60px 20px;
+      background: #f7fbff;
+      text-align: center;
+    }
+
+    .reviews-section h2 {
+      font-size: 32px;
+      color: #1b6c8a;
+      margin-bottom: 20px;
+    }
+
+    .review {
+      background: white;
+      margin: 20px auto;
+      max-width: 700px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .review p {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .review .name {
+      font-weight: bold;
+      color: #227093;
+    }
+
     .footer {
       text-align: center;
       font-size: 14px;
@@ -253,7 +283,6 @@
 <div class="main">
   <div class="tours" id="tourList">
 
-    <!-- Turkmenistan -->
     <div class="tour-card">
       <img src="https://th.bing.com/th/id/R.1fbc0b292bf6cc50ab4df02bd6750baa?rik=%2fFzIHmn6kC6Ncw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-r3xthHBfV5c%2fT1EIRXHZx1I%2fAAAAAAAAAdI%2fnzyWF3Gtazk%2fs1600%2fturkmenistan1.jpg&ehk=MNnB7tUB84RJ0hsQshF7No%2fXjthw0Nb2jSIayz9WDos%3d&risl=&pid=ImgRaw&r=0" alt="Turkmenistan" />
       <div class="tour-card-content">
@@ -263,7 +292,6 @@
       </div>
     </div>
 
-    <!-- Japan -->
     <div class="tour-card">
       <img src="https://i.pinimg.com/originals/a4/36/c7/a436c75004bdc5074ba36e3e82139bb4.jpg" alt="Japan" />
       <div class="tour-card-content">
@@ -273,7 +301,6 @@
       </div>
     </div>
 
-    <!-- Egypt -->
     <div class="tour-card">
       <img src="https://www.indy100.com/media-library/discovery-in-the-river-nile-s-evolution-reveals-why-ancient-egypt-was-so-prosperous.jpg?id=52433732&width=1245&height=700&quality=85&coordinates=0%2C65%2C0%2C66" alt="Egypt" />
       <div class="tour-card-content">
@@ -283,7 +310,6 @@
       </div>
     </div>
 
-    <!-- Italy -->
     <div class="tour-card">
       <img src="https://th.bing.com/th/id/OIP.gULU0gkr7641CjEZlQN2FAHaEo?cb=iwp2&rs=1&pid=ImgDetMain" alt="Italy" />
       <div class="tour-card-content">
@@ -296,10 +322,25 @@
   </div>
 </div>
 
+<div class="reviews-section">
+  <h2>Customer Reviews</h2>
+  <div class="review">
+    <p>"An unforgettable journey through the wonders of Turkmenistan!"</p>
+    <p class="name">– Fatima A.</p>
+  </div>
+  <div class="review">
+    <p>"I loved the cherry blossoms in Japan. CHS Travels made it so easy!"</p>
+    <p class="name">– Hassan M.</p>
+  </div>
+  <div class="review">
+    <p>"The Nile tour was breathtaking. Thanks to the wonderful guides."</p>
+    <p class="name">– Layla K.</p>
+  </div>
+</div>
+
 <div class="contact-section" id="contact">
   <h2>Contact Us</h2>
   <p>Have a question or want to book a trip? Send us a message!</p>
-
   <form>
     <input type="text" placeholder="Your Name" required />
     <input type="email" placeholder="Your Email" required />
@@ -307,7 +348,6 @@
     <textarea rows="5" placeholder="Your Message" required></textarea>
     <button type="submit">Send Message</button>
   </form>
-
   <p style="margin-top: 20px; font-size: 14px;">
     📧 Email: <strong>chstravels@gmail.com</strong><br />
     📞 UAE Phone: <strong>+971 55 123 4567</strong>
